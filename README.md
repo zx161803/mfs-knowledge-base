@@ -80,3 +80,20 @@
 
 ---
 <sub>Last updated: 2026-06-25 · 由 [mfs.xx.kg](https://mfs.xx.kg) 团队维护</sub>
+
+
+---
+
+## 🚀 启用静态博客站（GitHub Pages 推荐流程）
+
+本仓库的 `docs/` 子目录将来会上线静态博客，使其可访问于 `zx161803.github.io/mfs-knowledge-base`。  
+**启用步骤（手 5 秒）**：
+
+1. 打开 https://github.com/zx161803/mfs-knowledge-base/settings/pages
+2. 在 "Source" 下拉选 **"Deploy from a branch"**
+3. Branch 选 `main`，folder 选 `/ (root)`
+4. 点击 Save
+
+页面将在 1-2 分钟内活起来：`https://zx161803.github.io/mfs-knowledge-base/`
+
+国内用户建议用 Gitee Pages（同流程），但因 Gitee 静态站要求实名认证，默认只走 GitHub Pages。
