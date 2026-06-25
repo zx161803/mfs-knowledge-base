@@ -97,3 +97,20 @@
 页面将在 1-2 分钟内活起来：`https://zx161803.github.io/mfs-knowledge-base/`
 
 国内用户建议用 Gitee Pages（同流程），但因 Gitee 静态站要求实名认证，默认只走 GitHub Pages。
+
+
+---
+
+## 🇬🇧🇨🇳 静态博客站同步分发
+
+| 平台 | URL | 国内访问 | 启用方式 |
+|---|---|---|---|
+| 🌎 GitHub Pages | https://zx161803.github.io/mfs-knowledge-base/ | ⚠️ 部分地区不行 | ✅ 已激活 |
+| 🇨🇳 Gitee Pages | https://zx161803.gitee.io/mfs-knowledge-base/ | ✅ 全国可访问 | 点 [这里](https://gitee.com/zx161803/mfs-knowledge-base/pages) 启用 |
+
+**Gitee Pages 开启步骤**（同期推荐的备用路）：
+
+1. 打开 https://gitee.com/zx161803/mfs-knowledge-base/pages
+2. 点 "启动" 按钮（首次启动会要求实名，按提示走）
+3. 分支选 `main`，目录选 `/ (root)`
+4. 1-2 分钟即可：https://zx161803.gitee.io/mfs-knowledge-base/ 
