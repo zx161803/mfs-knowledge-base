@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>2026-scamalytics-explained - mfs 跨境 IP 池知识库</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', 'Microsoft YaHei', sans-serif; max-width: 900px; margin: 0 auto; padding: 24px; line-height: 1.7; color: #1f2328; }
+    pre { background: #f6f8fa; padding: 16px; border-radius: 6px; overflow: auto; white-space: pre-wrap; word-wrap: break-word; }
+    code { background: #f6f8fa; padding: 2px 6px; border-radius: 3px; }
+    h1 { border-bottom: 2px solid #ff6b6b; padding-bottom: 12px; }
+    h2 { color: #1f2328; margin-top: 24px; }
+    h3, h4 { color: #444; }
+    blockquote { border-left: 4px solid #ff6b6b; padding-left: 12px; margin: 16px 0; color: #555; }
+    a { color: #0066cc; }
+    hr { border: 0; border-top: 1px solid #e5e7eb; margin: 24px 0; }
+    ul, ol { padding-left: 24px; }
+    .nav { background: #f6f8fa; padding: 12px; border-radius: 6px; margin-bottom: 24px; }
+    .nav a { margin-right: 14px; text-decoration: none; color: #444; }
+    .cta { background: #fff5e6; border: 2px solid #ff6b6b; border-radius: 10px; padding: 16px; margin-top: 32px; text-align: center; }
+    .cta .wechat { display: inline-block; background: #ff6b6b; color: white; padding: 8px 22px; border-radius: 999px; text-decoration: none; margin-top: 8px; }
+  </style>
+</head>
+<body>
+<div class="nav">
+  <a href="../index.html">← 返回主页</a>
+  <a href="https://mfs.xx.kg">主站</a>
+  <a href="https://github.com/zx161803/mfs-knowledge-base">GitHub</a>
+</div>
+<pre style="background:transparent;padding:0">> 作者简介：mfs 全球网络方案专家，6 年跨境静态住宅 IP 池沉淀。本文首发于 mfs.xx.kg，全平台同步分发。
+
+---
+
+# IP 信誉分 2026 新算法 scamalytics 解读:跨境运营选 IP 必看
+
+scamalytics 2026 Q2 新算法完整解读 + 各平台信誉分阈值表 + 跨境业务动态管理 SOP + 行动清单。
+
+IP 信誉分（IP Reputation Score）是 2026 年跨境电商、海外社媒、AI 数据采集三大场景的核心风险评估指标。其中 scamalytics.com 的”Fraud Score”是最主流的公共信誉数据库，被 LinkedIn、Meta、TikTok、亚马逊的反欺诈团队广泛引用。
+
+
+
+
+
+本篇是 scamalytics 2026 年 Q2 新算法的完整解读 + 跨境运营选 IP 的实战指南。
+
+
+
+
+
+
+
+## scamalytics 信誉分基础
+
+
+
+
+
+scamalytics 给每个 IP 打 0-100 的”Fraud Score”，分越高越可疑：
+
+
+
+
+
+
+分数区间风险等级跨境可用性
+
+0-30极低可用
+30-50低可用（多数业务）
+50-75中谨慎使用
+75-100高不可用于任何严肃业务
+推荐区间0-50跨境/AI/社媒的最稳区间
+
+
+
+
+
+
+
+## 2026 Q2 算法升级要点
+
+
+
+
+
+scamalytics 在 2026 年 4 月份做了一次算法大改，从”ASN 信誉 + IP 历史滥用记录”升级为多维度加权模型：
+
+
+
+
+
+
+
+- ASN 类型权重：从 30% 提升到 40%；
+
+- IP 历史滥用记录：从 50% 降到 35%；
+
+- 地理一致性：新增维度占 15%；
+
+- Web 行为画像：新增维度占 10%（含访问过的网站类型、停留时长分布）。
+
+
+
+
+这次升级的几个实战影响：
+
+
+
+
+
+
+
+- 以前 50 分的 IP 现在可能到 30 分（更宽松）；
+
+- 但 datacenter IP 即使无历史滥用也提升到 60+ 分（更严）；
+
+- 长期被住宅 ASN 用户使用的 IP 会进入”信用白名单池”，分数可能 
+
+
+
+
+
+## 跨境业务对 IP 信誉分的要求
+
+
+
+
+
+
+
+### 亚马逊电商矩阵
+
+
+
+
+
+亚马逊 2026 年实际拉黑线是 65+ 分。推荐选 IP 的 scamalytics 信誉分 ≤ 50，最好 ≤ 30。新分配 IP 上线前必须 scamalytics check 一次。
+
+
+
+
+
+
+
+### Facebook 广告投放
+
+
+
+
+
+Meta 平台规则是 ≥ 75 分的 IP 直接 ban 广告账号。推荐 ≤ 60 分的纯净住宅 IP。
+
+
+
+
+
+
+
+### LinkedIn 矩阵号
+
+
+
+
+
+LinkedIn 用的是自建信誉体系，scamalytics  75 100% 不让过。
+
+
+
+
+
+
+
+### 大模型 API 调用
+
+
+
+
+
+OpenAI/Anthropic 没公开信誉阈值，但实测 scamalytics > 75 的 IP 调用稳定性下降 40%（体现在 429 错误率提高、配额降级）。
+
+
+
+
+
+
+
+## IP 信誉分的动态管理
+
+
+
+
+
+IP 信誉分不是静态的，会随时间变化。跨境团队必须每天自动检查：
+
+
+
+
+
+
+
+- 实测”坏事件”：账号被警告、被限流、被要求验证 → 该 IP 上 +20 分；
+
+- “好事件”+时间：每稳定运营 30 天无异常 → 该 IP 上 -2 分；
+
+- IP 信誉库自我刷新：scamalytics 每天更新 1 次；
+
+- 机场共享池的 IP 信誉分会被”集体污染”——一个用户在机场跑灰产，整个 IP 池的所有用户被拖累。
+
+
+
+
+
+
+## IP 信誉分检查脚本
+
+
+
+
+
+小型 Python 脚本逻辑（伪代码）：
+
+
+
+
+
+(1) 拿当前 IP：访问 https://api.ipify.org；
+(2) 查 scamalytics：访问 https://scamalytics.com/ip/{ip} 拿 fraud score；
+(3) 阈值判断：> 50 加进”危险 IP”队列，自动邮件告警；
+(4) 定时任务：每天 03:00 + 09:00 + 15:00 + 21:00 跑一次。
+
+
+
+
+
+
+
+## 信誉分运营建议
+
+
+
+
+
+
+
+- 诈骗 / 赌博 / 灰产专用 IP 不能用：scamalytics ≥ 80 几乎全是这些，已经被联合封禁；
+
+- 机场 / 公共代理 IP 不能用：这些 IP 信誉分往往 60-85，业务成功率极低；
+
+- 1 个 IP 只给 1 个账号用：1 个 IP 跨多账号会自动降低 IP 信誉分（公认经验值每多账号 -5）；
+
+- 90 天未使用的 IP 信誉自动衰减：scamalytics 不会主动”清零”，但平台对长期静默 IP 的信任度会下降；
+
+- 新分配的 IP 上线前必须先做”行为预热”：在浏览器里正常浏览 30 分钟（看新闻、刷视频），再做业务操作。
+
+
+
+
+
+
+## 2026 下半年趋势
+
+
+
+
+
+
+
+- scamalytics 计划在 Q3 引入”AI 行为画像”维度：分析 IP 历史的访问多样性，单纯访问单一业务的 IP 信誉分会降低；
+
+- LinkedIn 2026 H2 将接入 scamalytics 实时评分，登录拒绝延迟到毫秒级；
+
+- 亚马逊预计 2026 Q4 把矩阵号检测阈值从 65 调到 55——必须早做 IP 信誉分管理；
+
+- 机场共享池 IP 会被进一步降权，2026 H2 可能到 90+ 分，几乎全数不可用。
+
+
+
+
+
+
+## 行动清单
+
+
+
+
+
+
+
+- Day 1：列出当前所有 IP（包括不熟的），逐个 scamalytics 跑一遍；
+
+- Day 2：换掉信誉分 ≥ 60 的所有 IP；
+
+- Day 3：部署 IP 信誉分自动检查 cron（每天 4 次）；
+
+- Day 4-7：建立 IP 信誉分日志，监控变化趋势；
+
+- Day 8-14：根据信誉分变化动态调整 IP 池；
+
+- 30 天：信誉分管理是要持续做的工作，不是单次项目。
+
+
+
+
+IP 信誉分是 2026 年跨境运营的”基础设施”指标。老板们不能只看 IP 价格，更要看 IP 信誉分——否则省下的钱会被账号损耗 + 业务损失十倍还回去。
+
+
+
+
+
+
+
+
+
+本文 2026 年 6 月版本 | 数据来源：scamalytics 2026/Q2 算法白皮书 + 80+ 跨境客户实测 IP 信誉库 + LinkedIn/Meta/Amazon 2026 风控策略升级公告。
+
+---
+
+原文链接：https://mfs.xx.kg/ip-%e4%bf%a1%e8%aa%89%e5%88%86-2026-%e6%96%b0%e7%ae%97%e6%b3%95-scamalytics-%e8%a7%a3%e8%af%bb%e8%b7%a8%e5%a2%83%e8%bf%90%e8%90%a5%e9%80%89-ip-%e5%bf%85%e7%9c%8b-2/
+
+
+---
+
+---
+
+**📌 想看完整 SOP 文档？**
+
+**完整方案 SOP**：[mfs.xx.kg](https://mfs.xx.kg)  （按业务分类整理的实操文档）  
+
+**直接联系作者**：加 wx **yisheng3wantian**（备注"GitHub"）  
+
+---
+
+*本文首发于 [mfs.xx.kg](https://mfs.xx.kg)，全平台同步分发（GitHub / Gitee / 简书 / CSDN / 知乎）。*
+</pre>
+<div class="cta">
+  <p><b>需要跨境 IP 池方案？</b></p>
+  <a class="wechat" href="https://mfs.xx.kg/contact">👉 加微信 yisheng3wantian</a>
+</div>
+</body>
+</html>

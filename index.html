@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>mfs 跨境 IP 池实战 SOP 知识库</title>
+  <meta name="description" content="6 年沉淀 2000+ 出海客户案例库。跨境电商 / TikTok 直播 / AI 数据采集 全部实战 SOP。">
+  <link rel="icon" href="https://avatars.githubusercontent.com/u/zx161803">
+  <style>
+    :root {
+      --primary: #ff6b6b;
+      --bg: linear-gradient(135deg, #fff5e6 0%, #e6f7ff 100%);
+      --card: rgba(255,255,255,0.85);
+      --text: #1f2328;
+      --muted: #666;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+      background: var(--bg);
+      background-attachment: fixed;
+      color: var(--text);
+      min-height: 100vh;
+      padding: 32px 16px;
+      line-height: 1.7;
+    }
+    .container {
+      max-width: 920px;
+      margin: 0 auto;
+    }
+    header {
+      text-align: center;
+      padding: 32px 0;
+      margin-bottom: 24px;
+    }
+    h1 {
+      font-size: 36px;
+      font-weight: 800;
+      background: linear-gradient(90deg, #ff6b6b, #4d96ff);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 12px;
+    }
+    .subtitle {
+      color: var(--muted);
+      font-size: 17px;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+    .badges {
+      margin-top: 16px;
+    }
+    .badges img {
+      height: 22px;
+      margin: 0 4px;
+      vertical-align: middle;
+    }
+    .platforms {
+      display: flex;
+      gap: 14px;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-bottom: 32px;
+    }
+    .platform-btn {
+      display: inline-flex;
+      align-items: center;
+      padding: 10px 22px;
+      background: white;
+      color: var(--text);
+      text-decoration: none;
+      border-radius: 999px;
+      font-weight: 600;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+      transition: transform 0.15s;
+    }
+    .platform-btn:hover { transform: translateY(-2px); }
+    .platform-btn.github { border: 2px solid #1f2328; }
+    .platform-btn.gitee { border: 2px solid #c41e3a; color: #c41e3a; }
+    .posts-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 16px;
+      margin-bottom: 32px;
+    }
+    .post-card {
+      background: var(--card);
+      border-radius: 10px;
+      padding: 22px;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.04);
+      transition: box-shadow 0.2s, transform 0.2s;
+    }
+    .post-card:hover {
+      box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+      transform: translateY(-3px);
+    }
+    .post-tag {
+      display: inline-block;
+      font-size: 12px;
+      padding: 2px 10px;
+      border-radius: 4px;
+      background: #e6f7ff;
+      color: #0066cc;
+      margin-right: 6px;
+      margin-bottom: 8px;
+    }
+    .post-card h3 { font-size: 16px; margin: 8px 0; line-height: 1.5; }
+    .post-card a {
+      color: var(--text);
+      text-decoration: none;
+    }
+    .post-card a:hover h3 { color: var(--primary); }
+    .cta {
+      background: linear-gradient(135deg, #ff6b6b, #ff8e53);
+      color: white;
+      padding: 32px;
+      border-radius: 14px;
+      text-align: center;
+      margin-bottom: 24px;
+    }
+    .cta h2 { font-size: 24px; margin-bottom: 12px; }
+    .cta p { font-size: 16px; margin-bottom: 16px; opacity: 0.95; }
+    .wechat {
+      display: inline-block;
+      background: white;
+      color: var(--primary);
+      padding: 12px 28px;
+      border-radius: 999px;
+      font-weight: 700;
+      font-size: 18px;
+      text-decoration: none;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    }
+    .main-site {
+      display: inline-block;
+      margin-top: 14px;
+      color: white;
+      text-decoration: underline;
+      font-size: 14px;
+    }
+    footer {
+      text-align: center;
+      color: var(--muted);
+      font-size: 13px;
+      margin-top: 24px;
+      padding-top: 24px;
+      border-top: 1px solid rgba(0,0,0,0.08);
+    }
+    footer a { color: var(--muted); }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>🌐 mfs 跨境 IP 池实战 SOP 知识库</h1>
+      <p class="subtitle">6 年沉淀 · 2000+ 出海客户案例<br/>跨境电商 / TikTok 直播 / AI 数据采集 / 外媒社媒运营</p>
+      <div class="badges">
+        <img src="https://img.shields.io/badge/license-MIT-yellow" alt="License">
+        <img src="https://img.shields.io/badge/posts-12-blue" alt="Posts">
+        <img src="https://img.shields.io/badge/sources-2-ff6b6b" alt="Sources">
+      </div>
+    </header>
+    
+    <div class="platforms">
+      <a class="platform-btn github" href="https://github.com/zx161803/mfs-knowledge-base">📂 GitHub 公开仓</a>
+      <a class="platform-btn gitee" href="https://gitee.com/zx161803/mfs-knowledge-base">🇨🇳 Gitee 国内镜像</a>
+    </div>
+    
+    <div class="posts-grid">
+      <div class="post-card">
+        <span class="post-tag">🛒 跨境电商</span>
+        <a href="posts/2026-amazon-anti-association.html"><h3>亚马逊多店铺防关联 IP 配置</h3></a>
+      </div>
+      <div class="post-card">
+        <span class="post-tag">🛒 跨境电商</span>
+        <a href="posts/2026-shopify-matrix-ip.html"><h3>Shopify 多账号矩阵 IP 风控</h3></a>
+      </div>
+      <div class="post-card">
+        <span class="post-tag">🛒 跨境电商</span>
+        <a href="posts/2026-etsy-multi-shop.html"><h3>Etsy 多店铺矩阵 + 住宅 IP 隔离</h3></a>
+      </div>
+      <div class="post-card">
+        <span class="post-tag">📱 TikTok 直播</span>
+        <a href="posts/2026-tiktok-shop-startup.html"><h3>TikTok Shop 美区带货起号 IP 基建</h3></a>
+      </div>
+      <div class="post-card">
+        <span class="post-tag">📱 TikTok 直播</span>
+        <a href="posts/2026-tiktok-multi-account-live.html"><h3>TikTok 多账号直播带货 SOP</h3></a>
+      </div>
+      <div class="post-card">
+        <span class="post-tag">🤖 AI 数据采集</span>
+        <a href="posts/2026-multimodal-training-ip.html"><h3>多模态模型训练数据采集合规</h3></a>
+      </div>
+      <div class="post-card">
+        <span class="post-tag">🤖 AI 数据采集</span>
+        <a href="posts/2026-llm-api-ip-pool.html"><h3>大模型 API 调用 IP 池设计</h3></a>
+      </div>
+      <div class="post-card">
+        <span class="post-tag">🌐 静态住宅 IP 科普</span>
+        <a href="posts/2026-static-vs-dynamic-vs-datacenter.html"><h3>静态 vs 动态 vs 机房 IP 选型对比</h3></a>
+      </div>
+      <div class="post-card">
+        <span class="post-tag">🌐 静态住宅 IP 科普</span>
+        <a href="posts/2026-static-vs-dynamic-vs-datacenter-v2.html"><h3>静态 vs 动态 vs 机房 (v2 升级版)</h3></a>
+      </div>
+      <div class="post-card">
+        <span class="post-tag">🔧 IP 技术原理</span>
+        <a href="posts/2026-ipv4-vs-ipv6.html"><h3>IPv4 双栈 vs IPv6 单栈选型</h3></a>
+      </div>
+      <div class="post-card">
+        <span class="post-tag">🔧 IP 技术原理</span>
+        <a href="posts/2026-scamalytics-explained.html"><h3>IP 信誉分 scamalytics 数据库解读</h3></a>
+      </div>
+      <div class="post-card">
+        <span class="post-tag">🔧 IP 技术原理</span>
+        <a href="posts/2026-scamalytics-explained-v2.html"><h3>IP 信誉分 scamalytics (v2 升级版)</h3></a>
+      </div>
+    </div>
+    
+    <div class="cta">
+      <h2>💬 需要跨境 IP 池方案？</h2>
+      <p>6 年沉淀 2000+ 出海客户案例库<br/>加我微信，发我您的业务详情，24 小时内给您专属方案</p>
+      <a class="wechat" href="https://mfs.xx.kg/contact">👉 加微信 yisheng3wantian</a>
+      <br/>
+      <a class="main-site" href="https://mfs.xx.kg">🏠 返回主站 mfs.xx.kg</a>
+    </div>
+    
+    <footer>
+      <p>© 2026 mfs.xx.kg · 由 mfs 团队维护</p>
+      <p>
+        <a href="https://github.com/zx161803/mfs-knowledge-base">GitHub</a>
+        ·
+        <a href="https://gitee.com/zx161803/mfs-knowledge-base">Gitee</a>
+        ·
+        <a href="https://mfs.xx.kg">主站</a>
+      </p>
+    </footer>
+  </div>
+</body>
+</html>
