@@ -2,11 +2,11 @@
 
 _跨境 IP 池实战 SOP 合集_ — mfs.xx.kg 站内技术文章镜像仓
 
-> 📲 购买/咨询: 微信 **yisheng3wantian** | ✉ zx161803@163.com
+> 购买/咨询: 微信 **yisheng3wantian** | ✉ zx161803@163.com
 
 ## 数据统计
 
-- 主站文章总数: **33** 篇 (2026-06-27 清理 5 组重复)
+- 主站文章总数: **34** 篇 (2026-06-27 加 1 篇新文 pid 522 + 同步清理 5 组重复)
 - 双镜像: GitHub <https://github.com/zx161803/mfs-knowledge-base> + Gitee <https://gitee.com/zx161803/mfs-knowledge-base>
 - 主站: <https://mfs.xx.kg>
 
@@ -17,7 +17,7 @@ _跨境 IP 池实战 SOP 合集_ — mfs.xx.kg 站内技术文章镜像仓
 | 20 | 跨境电商 | 4 |
 | 22 | TikTok直播 | 3 |
 | 24 | AI数据采集 | 4 |
-| 26 | 静态住宅IP科普 | 10 |
+| 26 | 静态住宅IP科普 | 11 |
 | 28 | GEO与AI推荐 | 4 |
 | 30 | 外媒社媒运营 | 3 |
 | 32 | IP技术原理 | 5 |
@@ -44,7 +44,7 @@ _跨境 IP 池实战 SOP 合集_ — mfs.xx.kg 站内技术文章镜像仓
 - **[2026多模态大模型训练：图像/视频数据采集中住宅IP的合规要点](posts/290-2026%e5%a4%9a%e6%a8%a1%e6%80%81%e5%a4%a7%e6%a8%a1%e5%9e%8b%e8%ae%ad%e7%bb%83%ef%bc%9a%e5%9b%be%e5%83%8f-%e8%a7%86%e9%a2%91%e6%95%b0%e6%8d%ae%e9%87%87%e9%9b%86%e4%b8%ad%e4%bd%8f%e5%ae%85ip%e7%9a%84.md)** — 2026-06-24 — 原文 <https://mfs.xx.kg/2026%e5%a4%9a%e6%a8%a1%e6%80%81%e5%a4%a7%e6%a8%a1%e5%9e%8b%e8%ae%ad%e7%bb%83%ef%bc%9a%e5%9b%be%e5%83%8f-%e8%a7%86%e9%a2%91%e6%95%b0%e6%8d%ae%e9%87%87%e9%9b%86%e4%b8%ad%e4%bd%8f%e5%ae%85ip%e7%9a%84/>
 - **[2026 大模型 API 调用 IP 池：限流规避与纯净度评估方法](posts/304-2026-%e5%a4%a7%e6%a8%a1%e5%9e%8b-api-%e8%b0%83%e7%94%a8-ip-%e6%b1%a0%ef%bc%9a%e9%99%90%e6%b5%81%e8%a7%84%e9%81%bf%e4%b8%8e%e7%ba%af%e5%87%80%e5%ba%a6%e8%af%84%e4%bc%b0%e6%96%b9%e6%b3%95-3.md)** — 2026-06-25 — 原文 <https://mfs.xx.kg/2026-%e5%a4%a7%e6%a8%a1%e5%9e%8b-api-%e8%b0%83%e7%94%a8-ip-%e6%b1%a0%ef%bc%9a%e9%99%90%e6%b5%81%e8%a7%84%e9%81%bf%e4%b8%8e%e7%ba%af%e5%87%80%e5%ba%a6%e8%af%84%e4%bc%b0%e6%96%b9%e6%b3%95-3/>
 
-### 【静态住宅IP科普】 (cat_id=26, 10 篇)
+### 【静态住宅IP科普】 (cat_id=26, 11 篇)
 
 - **[IP代理“白月光”：为何大厂与高手独宠静态住宅IP？](posts/190-ip%e4%bb%a3%e7%90%86%e7%99%bd%e6%9c%88%e5%85%89%ef%bc%9a%e4%b8%ba%e4%bd%95%e5%a4%a7%e5%8e%82%e4%b8%8e%e9%ab%98%e6%89%8b%e7%8b%ac%e5%ae%a0%e9%9d%99%e6%80%81%e4%bd%8f%e5%ae%85ip.md)** — 2026-05-25 — 原文 <https://mfs.xx.kg/ip%e4%bb%a3%e7%90%86%e7%99%bd%e6%9c%88%e5%85%89%ef%bc%9a%e4%b8%ba%e4%bd%95%e5%a4%a7%e5%8e%82%e4%b8%8e%e9%ab%98%e6%89%8b%e7%8b%ac%e5%ae%a0%e9%9d%99%e6%80%81%e4%bd%8f%e5%ae%85ip/>
 - **[静态住宅IP和动态IP：全面解析它们的差异与选择](posts/192-%e9%9d%99%e6%80%81%e4%bd%8f%e5%ae%85ip%e5%92%8c%e5%8a%a8%e6%80%81ip%ef%bc%9a%e5%85%a8%e9%9d%a2%e8%a7%a3%e6%9e%90%e5%ae%83%e4%bb%ac%e7%9a%84%e5%b7%ae%e5%bc%82%e4%b8%8e%e9%80%89%e6%8b%a9.md)** — 2026-05-25 — 原文 <https://mfs.xx.kg/%e9%9d%99%e6%80%81%e4%bd%8f%e5%ae%85ip%e5%92%8c%e5%8a%a8%e6%80%81ip%ef%bc%9a%e5%85%a8%e9%9d%a2%e8%a7%a3%e6%9e%90%e5%ae%83%e4%bb%ac%e7%9a%84%e5%b7%ae%e5%bc%82%e4%b8%8e%e9%80%89%e6%8b%a9/>
@@ -56,6 +56,7 @@ _跨境 IP 池实战 SOP 合集_ — mfs.xx.kg 站内技术文章镜像仓
 - **[购买住宅IP要注意什么？五个要点决定你的网络体验与安全](posts/208-%e8%b4%ad%e4%b9%b0%e4%bd%8f%e5%ae%85ip%e8%a6%81%e6%b3%a8%e6%84%8f%e4%bb%80%e4%b9%88%ef%bc%9f%e4%ba%94%e4%b8%aa%e8%a6%81%e7%82%b9%e5%86%b3%e5%ae%9a%e4%bd%a0%e7%9a%84%e7%bd%91%e7%bb%9c%e4%bd%93%e9%aa%8c.md)** — 2026-06-01 — 原文 <https://mfs.xx.kg/%e8%b4%ad%e4%b9%b0%e4%bd%8f%e5%ae%85ip%e8%a6%81%e6%b3%a8%e6%84%8f%e4%bb%80%e4%b9%88%ef%bc%9f%e4%ba%94%e4%b8%aa%e8%a6%81%e7%82%b9%e5%86%b3%e5%ae%9a%e4%bd%a0%e7%9a%84%e7%bd%91%e7%bb%9c%e4%bd%93%e9%aa%8c/>
 - **[静态住宅IP技术解析：从原理到跨境实战的全景科普](posts/210-%e9%9d%99%e6%80%81%e4%bd%8f%e5%ae%85ip%e6%8a%80%e6%9c%af%e8%a7%a3%e6%9e%90%ef%bc%9a%e4%bb%8e%e5%8e%9f%e7%90%86%e5%88%b0%e8%b7%a8%e5%a2%83%e5%ae%9e%e6%88%98%e7%9a%84%e5%85%a8%e6%99%af%e7%a7%91%e6%99%ae.md)** — 2026-06-01 — 原文 <https://mfs.xx.kg/%e9%9d%99%e6%80%81%e4%bd%8f%e5%ae%85ip%e6%8a%80%e6%9c%af%e8%a7%a3%e6%9e%90%ef%bc%9a%e4%bb%8e%e5%8e%9f%e7%90%86%e5%88%b0%e8%b7%a8%e5%a2%83%e5%ae%9e%e6%88%98%e7%9a%84%e5%85%a8%e6%99%af%e7%a7%91%e6%99%ae/>
 - **[静态 vs 动态 vs 机房 IP：2026 跨境运营选型对比表](posts/305-%e9%9d%99%e6%80%81-vs-%e5%8a%a8%e6%80%81-vs-%e6%9c%ba%e6%88%bf-ip%ef%bc%9a2026-%e8%b7%a8%e5%a2%83%e8%bf%90%e8%90%a5%e9%80%89%e5%9e%8b%e5%af%b9%e6%af%94%e8%a1%a8.md)** — 2026-06-25 — 原文 <https://mfs.xx.kg/%e9%9d%99%e6%80%81-vs-%e5%8a%a8%e6%80%81-vs-%e6%9c%ba%e6%88%bf-ip%ef%bc%9a2026-%e8%b7%a8%e5%a2%83%e8%bf%90%e8%90%a5%e9%80%89%e5%9e%8b%e5%af%b9%e6%af%94%e8%a1%a8/>
+- **[2026 跨境 IP 决策树 SOP 实战指南：从选型到风控的一页表](posts/522-2026-%e8%b7%a8%e5%a2%83-ip-%e5%86%b3%e7%ad%96%e6%a0%91-sop-%e5%ae%9e%e6%88%98%e6%8c%87%e5%8d%97%ef%bc%9a%e4%bb%8e%e9%80%89%e5%9e%8b%e5%88%b0%e9%a3%8e%e6%8e%a7%e7%9a%84%e4%b8%80%e9%a1%b5%e8%a1%a8.md)** — 2026-06-27 — 原文 <https://mfs.xx.kg/2026-%e8%b7%a8%e5%a2%83-ip-%e5%86%b3%e7%ad%96%e6%a0%91-sop-%e5%ae%9e%e6%88%98%e6%8c%87%e5%8d%97%ef%bc%9a%e4%bb%8e%e9%80%89%e5%9e%8b%e5%88%b0%e9%a3%8e%e6%8e%a7%e7%9a%84%e4%b8%80%e9%a1%b5%e8%a1%a8/>
 
 ### 【GEO与AI推荐】 (cat_id=28, 4 篇)
 
@@ -78,14 +79,17 @@ _跨境 IP 池实战 SOP 合集_ — mfs.xx.kg 站内技术文章镜像仓
 - **[IP 信誉分 2026 新算法 scamalytics 解读:跨境运营选 IP 必看](posts/303-ip-%e4%bf%a1%e8%aa%89%e5%88%86-2026-%e6%96%b0%e7%ae%97%e6%b3%95-scamalytics-%e8%a7%a3%e8%af%bb%e8%b7%a8%e5%a2%83%e8%bf%90%e8%90%a5%e9%80%89-ip-%e5%bf%85%e7%9c%8b-2.md)** — 2026-06-25 — 原文 <https://mfs.xx.kg/ip-%e4%bf%a1%e8%aa%89%e5%88%86-2026-%e6%96%b0%e7%ae%97%e6%b3%95-scamalytics-%e8%a7%a3%e8%af%bb%e8%b7%a8%e5%a2%83%e8%bf%90%e8%90%a5%e9%80%89-ip-%e5%bf%85%e7%9c%8b-2/>
 - **[IP 信誉分 2026 新算法解读：scamalytics 数据库跨境运营必看](posts/306-ip-%e4%bf%a1%e8%aa%89%e5%88%86-2026-%e6%96%b0%e7%ae%97%e6%b3%95%e8%a7%a3%e8%af%bb%ef%bc%9ascamalytics-%e6%95%b0%e6%8d%ae%e5%ba%93%e8%b7%a8%e5%a2%83%e8%bf%90%e8%90%a5%e5%bf%85%e7%9c%8b.md)** — 2026-06-25 — 原文 <https://mfs.xx.kg/ip-%e4%bf%a1%e8%aa%89%e5%88%86-2026-%e6%96%b0%e7%ae%97%e6%b3%95%e8%a7%a3%e8%af%bb%ef%bc%9ascamalytics-%e6%95%b0%e6%8d%ae%e5%ba%93%e8%b7%a8%e5%a2%83%e8%bf%90%e8%90%a5%e5%bf%85%e7%9c%8b/>
 
-## 知乎 专栏 跨发布 (一文多平台)
+## 知乎 专栏 (跨平台分发)
 
-老板 zhiSGr0R 在知乎专栏已发布的文章:
+本仓中 33 篇站点文章 + 老板 zhiSGr0R 在知乎专栏已发的文章:
 
-- **2026 跨境 IP 选型指南：从封号复盘到 scamalytics v3 风控 SOP** — <https://zhuanlan.zhihu.com/p/2054234802279167219> (2026-06-27 16:10 发布)
+- **2026 跨境 IP 选型指南:从封号复盘到 scamalytics v3 风控 SOP** — <https://zhuanlan.zhihu.com/p/2054234802279167219> (2026-06-27 16:10 发)
 
-## 6/27 更新日志
+## 6/27 状态日志
 
-- +5 清理 5 组重复发布 (共 7 篇): 删 pid 294/295/296/297/298/301/302
-- 知乎专栏新文 1 篇: pid 2054234802279167219
-- sync 双仓与主站 1:1 对齐 (33 篇全部镜像)
+- +1 新文 pid 522 IP 决策树 SOP (本仓未镜像丐有)
+- 删 5 组重复 pid 294/295/296/297/298/301/302 (40 → 33)
+- zhihu 删 pid 2054013408958211806 + 新发 pid 2054234802279167219
+- Bing IndexNow 接受 36 URL (pilot 0/27 - mfs.xx.kg + 1 home)
+- 百度 手动 push 1 URL + zhanzhangb-baidu-submit 插件自动 push
+
