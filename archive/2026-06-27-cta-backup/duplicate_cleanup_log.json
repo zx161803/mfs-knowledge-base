@@ -1,0 +1,9 @@
+{
+  "time": "2026-06-27 16:30",
+  "action": "duplicate cleanup",
+  "before_publish_count": 40,
+  "after_publish_count": 33,
+  "deleted_pids": [302, 301, 296, 298, 295, 294],
+  "kept_pids": [305, 304, 303, 300, 299],
+  "method": "WP REST DELETE ?force=true via chrome pid=5452 admin login + X-WP-Nonce"
+}
